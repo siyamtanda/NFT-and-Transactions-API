@@ -28,3 +28,18 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/nft-and-transactions-api.git
    cd nft-and-transactions-api
+
+
+2. Install dependencies:
+
+    npm install
+   
+4. Create a .env file in the root directory of the project and add the following variables:
+
+    WEB3_PROVIDER=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
+    NFT_ABI=[YOUR_NFT_CONTRACT_ABI]
+    MONGO_URI=mongodb://localhost:27017/nftAndTransactions                                                                                                                                                                   Replace YOUR_INFURA_PROJECT_ID with your actual Infura project ID.
+        Replace [YOUR_NFT_CONTRACT_ABI] with the ABI of your NFT smart contract (you can retrieve this from Etherscan or your own contract).
+
+5. Start the server: npm start 
+
